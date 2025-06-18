@@ -8,41 +8,57 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #222;
     }
     header {
-      background: #fff;
-      padding: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      background: #0a0a0a;
+      color: white;
+      padding: 1rem 2rem;
       display: flex;
       align-items: center;
+      gap: 1rem;
     }
     header img {
       height: 40px;
-      margin-right: 1rem;
+    }
+    nav {
+      margin-left: auto;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
     }
     main {
       padding: 2rem;
     }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    h1 {
-      margin-top: 0;
+    section {
+      margin-bottom: 3rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="../logo.png" alt="BHIT Logo">
-    <h1>BHIT Platform (Staging)</h1>
+    <img src="logo.png" alt="BHIT Logo" />
+    <strong>BHIT Platform</strong>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
   </header>
   <main>
-    <div class="container">
-      <p>This is the development landing page for the BHIT platform.</p>
-    </div>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Welcome to the development version of the BHIT Platform. This section will provide an introduction and summary of functionality.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <p>Here we will list and describe platform capabilities as they are built and committed to this staging branch.</p>
+    </section>
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <p>This will detail upcoming features, releases, and integration targets.</p>
+    </section>
   </main>
 </body>
 </html>
